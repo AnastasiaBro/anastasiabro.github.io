@@ -1524,6 +1524,10 @@ input[type="radio"].visually-hidden {
   .portfolio__course-name:active {
     color: #678149;
   }
+  .portfolio__course-name--static:hover,
+  .portfolio__course-name--static:active {
+    color: #283645;
+  }
 }
 @media (min-width: 960px) {
   .portfolio__course-name {
@@ -1541,6 +1545,10 @@ input[type="radio"].visually-hidden {
   }
   .portfolio__course-name:active {
     color: #678149;
+  }
+  .portfolio__course-name--static:hover,
+  .portfolio__course-name--static:active {
+    color: #283645;
   }
 }
 @media (min-width: 320px) {

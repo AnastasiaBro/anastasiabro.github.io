@@ -50,15 +50,15 @@
 
     <section class="page-image">
       <div class="page-image__container">
-        <h2 class="page-image__title">Welcome to Be Latte</h2>
-        <p class="page-image__text">Enjoy of a fresh new approach to coffee. Proin gravida nibh vel velit. Auctor aliquet sollicitudin lorem quis.</p>
+        <h2 class="page-image__title flash">Welcome to Be Latte</h2>
+        <p class="page-image__text flash">Enjoy of a fresh new approach to coffee. Here you will find something that will be to your liking.</p>
         <a class="page-image__button button" href="#menu">See menu</a>
       </div>
     </section>
     <section class="description">
       <div class="description__container">
         <h3 class="description__title">Coffee never tasted <span class="description__title--bold description__title--underline">so good</span><span class="description__title--bold">!</span></h3>
-        <p class="description__text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <p class="description__text">Team of cafe "Be Latte" welcomes you! A small cozy cafe with a practically homely atmosphere is located in California. Cafe "Be Latte" is a great place to meet new people. An excellent occasion to drink coffee before the start of the working day or relax after its end.</p>
       </div>
     </section>
 
@@ -69,15 +69,15 @@
 
         <div class="menu__wrapper">
           <div class="menu__image-wrapper">
-            <img class="menu__image" src="img/cup-of-coffee.jpg" alt="Coffee">
+            <img class="menu__image" src="img/cup-of-coffee.png" alt="Coffee">
             <h4 class="menu__image-name">Coffee</h4>
           </div>
           <div class="menu__image-wrapper">
-            <img class="menu__image" src="img/cup-of-tea.jpg" alt="Tea">
+            <img class="menu__image" src="img/cup-of-tea.png" alt="Tea">
             <h4 class="menu__image-name">Tea</h4>
           </div>
           <div class="menu__image-wrapper">
-            <img class="menu__image" src="img/dessert.jpg" alt="Desserts">
+            <img class="menu__image" src="img/dessert-full.png" alt="Desserts">
             <h4 class="menu__image-name">Desserts</h4>
           </div>
         </div>
@@ -154,15 +154,30 @@
       <div class="testimonials__container">
         <h3 class="testimonials__title">Testimonials</h3>
         <img class="testimonials__image" src="img/coffee-photo.jpg" alt="Coffee example">
-        <div class="testimonials__wrapper-review">
-          <img class="testimonials__photo" src="img/brendan-lim.png" alt="Photo">
-          <p class="testimonials__name">Chris Parker</p>
-          <p class="testimonials__review">Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris accumsan.</p>
-          <div class="testimonials__wrapper-button">
-            <button class="testimonials__controls testimonials__controls--active" id="first"><span class="visually-hidden">First</span></button>
-            <button class="testimonials__controls" id="second"><span class="visually-hidden">Second</span></button>
-            <button class="testimonials__controls" id="third"><span class="visually-hidden">Third</span></button>
+        <div class="testimonials__wrapper">
+          <div class="testimonials__wrapper-review testimonials__wrapper-review--first flash">
+            <img class="testimonials__photo" src="img/chris.png" alt="Photo">
+            <p class="testimonials__name">Chris Parker</p>
+            <p class="testimonials__review">Was in this cafe twice in different time periods only at breakfast. Good location, interior, prices.</p>
           </div>
+
+          <div class="testimonials__wrapper-review testimonials__wrapper-review--second visually-hidden">
+            <img class="testimonials__photo" src="img/anna.png" alt="Photo">
+            <p class="testimonials__name">Anna Nicolson</p>
+            <p class="testimonials__review">We went with a friend to this cafe and fell in love. The food is delicious, the staff is polite and always with&nbsp;a&nbsp;smile.</p>
+          </div>
+
+          <div class="testimonials__wrapper-review testimonials__wrapper-review--third visually-hidden">
+            <img class="testimonials__photo" src="img/jim.png" alt="Photo">
+            <p class="testimonials__name">Jim Andersen</p>
+            <p class="testimonials__review testimonials__review--wide">Visited the institution by the company - despite the day off, we were promptly given a table by the window. Orders brought quickly, depending on the dish.</p>
+          </div>
+        </div>
+
+        <div class="testimonials__wrapper-button">
+          <button class="testimonials__controls testimonials__controls--active" id="first"><span class="visually-hidden">First</span></button>
+          <button class="testimonials__controls" id="second"><span class="visually-hidden">Second</span></button>
+          <button class="testimonials__controls" id="third"><span class="visually-hidden">Third</span></button>
         </div>
       </div>
     </section>
@@ -170,7 +185,6 @@
     <section class="location">
       <div class="location__container">
         <h3 class="location__main-title">Location</h3>
-        <a name="contact"></a>
         <div class="location__wrapper">
           <h4 class="location__title">Location</h4>
           <p class="location__text">Visit us at St. Thomas street 21st, suite 110, Santa Monica, California.</p>
@@ -198,6 +212,7 @@
     </section>
 
     <footer class="contacts">
+      <a name="contact"></a>
       <ul class="contacts__list">
         <li class="contacts__item">
           <a class="contacts__link contacts__link--facebook" href="#"><span class="visually-hidden">Facebook</span>
@@ -223,5 +238,6 @@
       </ul>
       <p class="contacts__address">St. Thomas street 21st, Suite 110, Santa Monica, California</p>
     </footer>
+    <script src="js/slider.js"></script>
   </body>
 </html>
